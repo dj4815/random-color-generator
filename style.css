@@ -110,6 +110,9 @@ button:focus-visible {
   h1 {
     color: #000000; /* Ensures h1 is visible on dark background */
   }
+  p {
+    color: #000000;
+  }
   button {
     background-color: #3a3a3a; /* Slightly lighter for contrast */
     color: #ffffff; /* Button text color in dark mode */
