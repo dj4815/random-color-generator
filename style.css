@@ -38,7 +38,6 @@ h1 {
 #interface {
   background-color: white;
   padding: 2rem;
-  border-radius: 50%;
 }
 
 #app {
@@ -108,10 +107,10 @@ button:focus-visible {
     background-color: #242424;
   }
   h1 {
-    color: #000000; /* Ensures h1 is visible on dark background */
+    color: #242424; /* Ensures h1 is visible on dark background */
   }
   p {
-    color: #000000;
+    color: #242424;
   }
   button {
     background-color: #3a3a3a; /* Slightly lighter for contrast */
