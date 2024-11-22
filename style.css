@@ -108,7 +108,7 @@ button:focus-visible {
     background-color: #242424;
   }
   h1 {
-    color: #ffffff; /* Ensures h1 is visible on dark background */
+    color: #000000; /* Ensures h1 is visible on dark background */
   }
   button {
     background-color: #3a3a3a; /* Slightly lighter for contrast */
