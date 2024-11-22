@@ -1,7 +1,3 @@
-import "./style.css";
-// import javascriptLogo from './javascript.svg'
-// import viteLogo from '/vite.svg'
-
 const button = document.querySelector("button");
 const body = document.querySelector("body");
 let currentColorValues = document.querySelector("p");
