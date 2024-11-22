@@ -38,6 +38,7 @@ h1 {
 
 #interface {
   background-color: white;
+  padding: 1em;
 }
 
 #app {
