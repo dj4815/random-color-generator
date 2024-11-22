@@ -31,13 +31,28 @@ body {
 }
 
 h1 {
-  font-size: 3.2em;
+  font-size: 3.2rem;
   line-height: 1.1;
+  color: #242424;
+
+}
+
+h2 {
+  font-size: 1.5rem;
+  line-height: 1.1;
+  color: #242424;
+  margin-bottom: 2rem;
+}
+
+p {
+  color: #242424;
 }
 
 #interface {
   background-color: white;
   padding: 2rem;
+  border: 4px solid #242424;
+  border-radius: 2rem;
 }
 
 #app {
@@ -108,9 +123,6 @@ button:focus-visible {
   }
   h1 {
     color: #242424; /* Ensures h1 is visible on dark background */
-  }
-  p {
-    color: #242424;
   }
   button {
     background-color: #3a3a3a; /* Slightly lighter for contrast */

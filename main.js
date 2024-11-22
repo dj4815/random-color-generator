@@ -1,6 +1,6 @@
 const button = document.querySelector("button");
 // const body = document.querySelector("body");
-let paragraph = document.querySelector("p");
+let h2 = document.querySelector("h2");
 
 button.addEventListener("click", () => {
   const r = `${Math.floor(Math.random() * 255)}, `;
@@ -15,10 +15,7 @@ button.addEventListener("click", () => {
   document.body.style.backgroundColor = newColor;
 
   // Set the text of the paragraph to the new color values
-  paragraph.innerText = `Current color: ${currentBackgroundColor}`;
-
-  // Replace the current background color with the new background color
-  body.style.backgroundColor = `${currentBackgroundColor}`;
+  h2.innerText = `Current color: ${newColor}`;
 
   // console.log(rgb);
 });
