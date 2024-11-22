@@ -97,5 +97,20 @@ button:focus-visible {
   }
   button {
     background-color: #f9f9f9;
+    color: #213547; /* Button text color in light mode */
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #242424;
+  }
+  h1 {
+    color: #ffffff; /* Ensures h1 is visible on dark background */
+  }
+  button {
+    background-color: #3a3a3a; /* Slightly lighter for contrast */
+    color: #ffffff; /* Button text color in dark mode */
   }
 }
