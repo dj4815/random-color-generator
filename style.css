@@ -38,7 +38,8 @@ h1 {
 
 #interface {
   background-color: white;
-  padding: 1em;
+  padding: 2rem;
+  border-radius: 100%;
 }
 
 #app {
